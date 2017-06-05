@@ -1,0 +1,9 @@
+<% include nav.ejs %>
+<h2>Variable</h2>
+<p><%= profileId %></p>
+<h2>Hobbies</h2>
+<ul>
+  <% data.forEach(function(item) { %>
+  <li><%= item %></li>
+  <%  }) %>
+</ul>
