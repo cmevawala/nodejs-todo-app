@@ -1,4 +1,4 @@
-# Project Title
+# Todo App
 
 This is a todo app developed using nodejs and express web application framework. The main aim of developing this application is to explore the working of nodejs.
 
