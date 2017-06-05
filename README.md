@@ -1,10 +1,10 @@
-# Todo App
+# Sample Application
 
-This is a todo app developed using nodejs and express web application framework. The main aim of developing this application is to explore the working of nodejs.
+The main aim of developing this application is to explore the working of nodejs and expressjs.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
 
@@ -12,12 +12,11 @@ Below steps are needed only for the first time when you setup your dev machine
 
 Install node.js server from https://nodejs.org/en/download/
 
-
 ### Installing
 
 1. Clone this git repository, if you haven't done already.
 
-   `git clone https://github.com/riversandtechnologies/ui-platform.git`
+   `git clone https://github.com/cmevawala/nodejs-todo-app.git`
 
 2. Install local npm dependencies
 
