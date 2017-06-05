@@ -11,10 +11,6 @@ These instructions will get you a copy of the project up and running on your loc
 Below steps are needed only for the first time when you setup your dev machine
 
 Install node.js server from https://nodejs.org/en/download/
-If installing on MAC OS open Terminal and run
-        `echo $PATH`
-        Copy the Path returned
-        Set the updated path using the command `PATH=<<old copied path>>:/usr/local/bin/node:/usr/local/bin/npm`
 
 
 ### Installing
