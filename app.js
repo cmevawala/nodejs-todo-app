@@ -16,17 +16,21 @@ app.use("/assets", express.static("assets"));
 
 app.get("/", function(request, response) {
   // response.send("Hello Express - NodeJS Minimiliastic Framework");-
-  response.sendFile(__dirname + "/index.html");
+  // response.sendFile(__dirname + "/index.html");
+  response.render("index");
 });
 
 app.get("/contact", function(request, response) {
   // response.send("This is a contact page");
-  response.sendFile(__dirname + "/pages/contact.html");
+  // response.sendFile(__dirname + "/pages/contact.html");
+  response.render("contact");
 });
 
-app.get("/profile/", function(request, response) {
+app.get("/profile", function(request, response) {
   // response.send("Your profile id: " + request.params.id);
-  response.sendFile(__dirname + "/pages/profile.html");
+  // response.sendFile(__dirname + "/pages/profile.html");
+  var hobbies = ["ABC", "PQR", "XYZ"]
+  response.render("profile", { profileId: "11", data: hobbies });
 });
 
 app.get("/profile/:id", function(request, response) {
