@@ -27,4 +27,4 @@ End with an example of getting some data out of the system or using it for a lit
 ## Built With
 
 * [Node](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
-* [Express](https://expressjs.com/) - Node.js web application framework
+* [Express](https://expressjs.com/) - Node.js web application framework.
